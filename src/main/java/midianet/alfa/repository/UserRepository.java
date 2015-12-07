@@ -1,7 +1,10 @@
 package midianet.alfa.repository;
 
-/**
- * Created by marcos-fc on 07/12/15.
- */
+import org.springframework.stereotype.Repository;
+
+import javax.inject.Named;
+
+@Named
 public class UserRepository {
+
 }
