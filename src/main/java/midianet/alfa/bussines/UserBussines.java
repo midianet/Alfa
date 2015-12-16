@@ -1,14 +1,13 @@
 package midianet.alfa.bussines;
 
 import midianet.alfa.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import javax.inject.Inject;
-import javax.inject.Named;
-
-@Named
+@Component
 public class UserBussines {
 
-    @Inject
+    @Autowired
     private UserRepository repository;
 
 }

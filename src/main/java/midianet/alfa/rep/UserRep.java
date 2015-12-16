@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType
-public class UserR {
+public class UserRep {
     private Long id;
     private String nome;
     private String email;
