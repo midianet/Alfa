@@ -11,6 +11,9 @@
 
     <context:component-scan base-package="midianet.alfa" />
 
+
+
+
     <!--<bean id="myService" class="no.osthus.alfa.MyService" />
     <bean id="randomService" class="no.osthus.alfa.RandomService" />-->
     <!--<bean class="no.osthus.rest.GlobalExceptionMapper">-->
